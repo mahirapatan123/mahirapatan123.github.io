@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+    <title>form and input elements tag</title> 
+</head>
+<body>
+    <h2>form</h2>
+<form>
+    Enter your name<br>
+    <input type="text" name="username">  
+    </form><br>
+    <div>
+        <h2>text field control</h2>
+        <form>
+            First Name:
+            First Name: <input type="text" name="firstname"><br>
+            Last Name: 
+            Last Name:  <input type="text" name="lastname"><br>
+        </form>
+    </div>
+<div>
+        <h2>text area</h2>
+        <form>
+            enter your address<br>
+            <textarea rows="2" cols="20"></textarea>  
+        </form>
+</div>
+<div>>
+        <h2>label tag</h2>
+        <label for="firstname">First Name: </label> <br>
+        <input type="text" id="firstname" name="firstname">
+l<div>
+        <h2>password field</h2>
+        <form>
+            <label for="password">Password: </label>  
+            <input type="password" id="password" name="password"/> <br/>  
+        </div>
+
+    </form>
+    <div>
+        <h2>html email filed control</h2>
+        <form>
+            <label for="email">Email: </label>  
+              <input type="email" id="email" name="email"/> <br/>  
+        </form>
+ </div> lo
+<div>
+    <h2>Radio button control</h2>
+    <form>
+        <label for="gender">Gender: </label>  
+              <input type="radio" id="gender" name="gender" value="male"/>Male  
+              <input type="radio" id="gender" name="gender" value="female"/>Female <br/>  
+
+    </form>
+</div>
+<div>
+     <h2> Check box</h2>
+     <form>
+
+        Hobby:<br>  
+        <input type="checkbox" id="cricket" name="cricket" value="cricket"/>  
+           <label for="cricket">Cricket</label> <br>  
+        <input type="checkbox" id="football" name="football" value="football"/>  
+           <label for="football">Football</label> <br>  
+        <input type="checkbox" id="hockey" name="hockey" value="hockey"/>  
+           <label for="hockey">Hockey</label>  
+
+     </form>
+</div>
+<div>
+       <h2>Submit Button control</h2>
+       <input type="submit" value="login">
+</div>
+<div>
+       <h2>Field set</h2>
+       <form>
+        <fieldset>  
+            <legend>User Information:</legend>  
+          <label for="name">Enter name</label><br>  
+     . <input type="text" id="name" name="name"><br>  
+      <label for="pass">Enter Password</label><br>  
+      <input type="Password" id="pass" name="pass"><br>  
+      <input type="submit" value="submit">  
+      </fieldset>  
+        </form>
+</div>
+<div>
+    <h2>Reset tag</h2>
+    <form>
+    <input type="reset" value="Reset">  
+    </form>
+  </div>
+  <div>
+      <h2>input type button</h2>
+      <form>  
+        <input type="button" value="Clcik me " onclick="alert('you are learning HTML')">  
+   </form>  
+  </div>
+<div>
+    <h2>files</h2>
+    <form>  
+        <label>Select file to upload:</label>  
+        <input type="file" name="newfile">  
+        <input type="submit" value="submit">  
+   </form>     
+</div>
+<div>
+    <h2>color</h2>
+    <form>  
+        Pick your Favorite color: <br><br>  
+        <input type="color" name="upclick" value="#FF0000"> Upclick<br><br>  
+        <input type="color" name="downclick" value="#00008B"> downclick 
+    </form>  
+    
+</div>
+<div>
+    <h2>date</h2>
+    <form>
+        Startdate:<input type="date" name="Startdate"> Start date:<br><br>  
+        Enddate:<input type="date" name="Enddate"> End date:<br><br>  
+       <input type="button" value="submit" > 
+  </form>  
+</div>
+<div>
+ <h2>datetime</h2>
+ <form>  
+    <label>  
+      Select the meeting schedule: <br><br>  
+      Select date & time: <input type="datetime-local" name="meetingdate"> <br><br>  
+    </label>  
+      <input type="button" value="submit">
+      </form>
+  </div>  
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Webpage using div</title>
+	<style>
+		body{
+			margin:0px;
+		}
+        .header{
+                padding: 10px;
+                background-color:black;
+                text-align: center;
+               }
+          .header h2{
+          	color:wheat; }
+
+              .nav{
+              	background-color:whitesmoke;
+              	padding: 5px;
+              	}
+             
+              .nav li{
+              list-style: none;
+              display: inline-block;
+              padding: 8px;
+               }
+           .nav a{
+           	color:seagreen;
+           }
+           
+          .nav ul li a:hover{
+            text-decoration: none;
+            color:slateblue;
+           }
+              .lside{
+              	 float: left;
+               width: 80%;
+               min-height: 440px;
+               background-color:lightsalmon;
+               text-align: center;
+              }
+           .rside
+           {
+           	text-align: center;
+            float: right;
+           	width: 20%;
+           	  min-height: 440px;
+             background-color:lightskyblue;
+           }
+           .footer{
+             height: 44px;
+            	background-color:black;
+           	text-align: center; 
+           	padding-top: 10px;}
+
+           	.footer p{
+           		color: red;
+           	}
+
+	</style>
+</head>
+<body>
+<div>
+	<div class="header">
+	  <h2>div layout in html</h2>
+	</div>
+         	
+      	<div class="nav">
+      		<ul>
+                <li><a href="#">contents</a></li>
+				<li><a href="#">menu</a></li>
+				<li><a href="#">title</a></li>
+				<li><a href="#">topics</a></li>
+				<li style="float: right;"><a href="#">submit</a></li>
+				<li style="float: right;"><a href="#">sign up</a></li>
+			</ul>
+      	</div>
+     
+      	<div style="height:440px">
+      		<div class="lside">	
+      			<p>Write your content here</p>
+      		</div>
+      	
+      		<div class="rside">
+      			<p>This is side</p>
+      		</div>
+      	</div>
+    
+       <div class="footer">
+    	<p>©<strong>Copyright javaTpoint.com</strong></p>
+    </div>  
+ </div>
+</body>
+</html>
+
+ 

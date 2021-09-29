@@ -3,6 +3,9 @@
 <head>
     <title>task1</title>
     <style>
+ #star{
+        color:red;
+    }
     #create{
         background-color: blue;
         width: 1o%;
@@ -18,9 +21,6 @@
     h2{
         margin-bottom:3px;
     }  
-    #star{
-        color:red;
-    }
     #color{
         background-color:white:
          height:10px;
